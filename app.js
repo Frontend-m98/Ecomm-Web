@@ -9,7 +9,6 @@ function showSlide(i) {
     dots.forEach(dot => dot.classList.remove("active"));
     dots[i].classList.add("active");
 
-    // 🔥 SLIDE
     slider.style.transform = `translateX(-${i * 100}%)`;
 }
 
@@ -28,7 +27,6 @@ dots.forEach((dot, i) => {
         showSlide(index);
     });
 });
-
 
 // topscroll-btn
 
